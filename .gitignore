@@ -1,0 +1,75 @@
+# --- credentials: never committed ---------------------------------------- #
+deepai-keyring.json
+deepai-keyring.backup-*.json
+.deepai-lane.json
+usage.json
+*_token.txt
+_admin_token.txt
+_gw_token.txt
+wrangler.jsonc
+.env
+.env.*
+*.pem
+*.p12
+jwt.json
+clerk_state.json
+pending_signup.json
+
+# --- captured traffic / archives ----------------------------------------- #
+*.har
+*.zip
+
+# --- logs and scratch ---------------------------------------------------- #
+*.err
+*.out
+*.log
+tunnel.log
+
+# --- build/runtime cruft -------------------------------------------------- #
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.git.local/
+.venv/
+venv/
+
+# --- unrelated projects that live in the same working folder -------------- #
+# This repo is the DeepAI proxy only. These are separate codebases:
+cf/
+cf-worker/
+ms-studio/
+Turnstile-Solver/
+llm-fingerprint-detector/
+chat/
+
+# --- loose scratch helpers in the working folder -------------------------- #
+_cancel*.py
+_fix*.py
+fix_proxy.py
+peek.py
+deepai_chat.py
+deepai_cookies.py
+deepai_key.py
+deepai_keys.py
+deepai_probe.py
+deepai_signup.py
+dashboard.py
+sorce.html
+key_stats.py
+fingerprint.py
+extract_transcriptr_sitekey.py
+rev-win.py
+ask-opencode.ps1
+install-skill.ps1
+tunnel.ps1
+opencode-*
+package-lock.json
+
+# --- large media ---------------------------------------------------------- #
+*.mp4
+*.mov
+*.webm
+*.png
+*.jpg
+*.jpeg
